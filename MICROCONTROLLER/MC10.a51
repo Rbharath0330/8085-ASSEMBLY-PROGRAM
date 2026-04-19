@@ -1,0 +1,5 @@
+ ORG 0000H
+	 MOV A,#00H
+	 LOOP:INC A
+ 	 SJMP LOOP
+	 END
