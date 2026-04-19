@@ -1,0 +1,8 @@
+ORG 0000H 
+	MOV R1,#0FFH
+    MOV A,R1
+    JZ LOOP
+    SJMP $
+LOOP:
+MOV P1,#00H
+END
